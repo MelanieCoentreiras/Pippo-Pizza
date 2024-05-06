@@ -138,6 +138,12 @@ module.exports = {
     colors: ({ colors }) => ({
       inherit: colors.inherit,
       current: colors.current,
+
+      primary: "#FADC50",
+      secondary: "#290303",
+      action: "#EE0000",
+      beige: "#F8F5D4",
+
       transparent: colors.transparent,
       black: colors.black,
       white: colors.white,
