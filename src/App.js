@@ -1,11 +1,11 @@
 import React from "react";
+import Router from "./Router.js";
 
 export default function App() {
   return (
     <div>
-      <h1 className='text-3xl font-bold underline text-green-500'>
-        Bouture House
-      </h1>
+      {/* <p className='text-3xl font-bold text-indigo-500'>Pipi debout femme</p> */}
+      <Router />
     </div>
   );
 }
