@@ -311,6 +311,7 @@ module.exports = {
       DEFAULT: "1",
     },
     fontFamily: {
+      title: ['"Modak"'],
       sans: [
         "ui-sans-serif",
         "system-ui",
