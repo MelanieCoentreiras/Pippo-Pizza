@@ -141,8 +141,10 @@ module.exports = {
 
       primary: "#FADC50",
       secondary: "#290303",
-      action: "#EE0000",
+      action: "#DA0606",
+      actionHover: "#E30707",
       beige: "#F8F5D4",
+      beigeHover: "#FFFCDA",
 
       transparent: colors.transparent,
       black: colors.black,
