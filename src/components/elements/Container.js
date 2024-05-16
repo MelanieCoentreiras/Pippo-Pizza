@@ -1,5 +1,6 @@
 import React from "react";
 
 export default function Container({ children }) {
-  return <div className='max-w-6xl h-full m-auto'>{children}</div>;
+  // children c'est ce qu'il y a entre les balises
+  return <div className='max-w-7xl h-full m-auto bg'>{children}</div>;
 }

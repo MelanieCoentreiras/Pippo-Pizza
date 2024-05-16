@@ -139,7 +139,7 @@ module.exports = {
       inherit: colors.inherit,
       current: colors.current,
 
-      primary: "#FADC50",
+      primary: "#FFCC38",
       secondary: "#290303",
       action: "#DA0606",
       "action-hover": "#E30707",
@@ -895,6 +895,7 @@ module.exports = {
       72: "18rem",
       80: "20rem",
       96: "24rem",
+      98: "28rem",
     },
     stroke: ({ theme }) => ({
       none: "none",
