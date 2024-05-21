@@ -313,7 +313,7 @@ module.exports = {
       DEFAULT: "1",
     },
     fontFamily: {
-      title: ['"Modak"'],
+      title: ['"Rammetto One"'],
       sans: [
         "ui-sans-serif",
         "system-ui",
@@ -896,6 +896,7 @@ module.exports = {
       80: "20rem",
       96: "24rem",
       98: "28rem",
+      100: "31.25rem",
     },
     stroke: ({ theme }) => ({
       none: "none",

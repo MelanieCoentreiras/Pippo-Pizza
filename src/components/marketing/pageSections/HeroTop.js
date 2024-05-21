@@ -40,7 +40,7 @@ export default function HeroTop() {
               <span className='block'>Pizza</span>
               <span>Pippo</span>
             </h2>
-            <Button className='mt-5' color='primary' theme='large'>
+            <Button className='mt-10' color='primary' theme='large'>
               Créer un compte
             </Button>
           </div>

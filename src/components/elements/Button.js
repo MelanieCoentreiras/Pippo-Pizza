@@ -18,7 +18,7 @@ export default function Button({ children, className, color, theme }) {
       background = "bg-beige hover:bg-beige-hover text-action";
       break;
     default:
-      background = "bg-primary text-secondary";
+      background = "bg-primary text-action";
   }
 
   switch (theme) {
@@ -26,7 +26,7 @@ export default function Button({ children, className, color, theme }) {
       return (
         <div>
           <button
-            className={`${className} ${background} px-6 py-2 rounded-full font-title tracking-wide text-base animate`}
+            className={`${className} ${background} px-6 py-2 rounded-lg font-title tracking-wide text-sm animate`}
           >
             {children}
           </button>
@@ -36,7 +36,7 @@ export default function Button({ children, className, color, theme }) {
       return (
         <div>
           <button
-            className={`${className} ${background} px-8 py-4 rounded-full font-title text-2xl tracking-wide animate`}
+            className={`${className} ${background} px-8 py-4 rounded-lg font-title text-2xl tracking-wide animate`}
           >
             {children}
           </button>
@@ -46,7 +46,7 @@ export default function Button({ children, className, color, theme }) {
       return (
         <div>
           <button
-            className={`${className} ${background} px-6 py-3 rounded-full font-title text-xl tracking-wide animate`}
+            className={`${className} ${background} px-6 py-3 rounded-lg font-title text-base tracking-wide animate`}
           >
             {children}
           </button>
