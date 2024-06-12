@@ -8,7 +8,7 @@ import ImageReinsurance3 from "../../../medias/images/reinsurance/Reinsurance-3.
 
 export default function Reinsurance() {
   return (
-    <div className='bg-action w-full min-h-screen pt-20'>
+    <div className='bg-action w-full h-screen mb-20 pt-20'>
       <Container>
         <HeadingTitle variant='h3'>Always delicious ;)</HeadingTitle>
         <Heading variant='h3' theme='secondary' display='beige'>
@@ -22,9 +22,9 @@ export default function Reinsurance() {
           incomparables.
         </p>
 
-        <div className='grid grid-cols-3 gap-x-20 mt-10 mb-5 h-96 pb-9'>
+        <div className='grid grid-cols-3 gap-x-20 mt-10 mb-5 h-96'>
           <div className='w-full h-full'>
-            <div className='relative w-full h-96'>
+            <div className='relative w-full h-72'>
               <img
                 src={ImageReinsurance1}
                 alt=''
@@ -44,7 +44,7 @@ export default function Reinsurance() {
           </div>
 
           <div className='w-full h-full'>
-            <div className='relative w-full h-96'>
+            <div className='relative w-full h-72'>
               <img
                 src={ImageReinsurance2}
                 alt=''
@@ -64,7 +64,7 @@ export default function Reinsurance() {
           </div>
 
           <div className='w-full h-full'>
-            <div className='relative w-full h-96'>
+            <div className='relative w-full h-72'>
               <img
                 src={ImageReinsurance3}
                 alt=''
